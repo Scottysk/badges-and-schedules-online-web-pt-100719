@@ -5,6 +5,7 @@ end
 def batch_badge_creator(attendees)
   attendees = []
   attendees.each do |name|
-    attendees >> badge_maker(name)
+    attendees << badge_maker(name)
   end
+  
 end
