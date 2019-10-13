@@ -20,5 +20,6 @@ def assign_rooms(attendees)
   return attendee
 end
 
-def printer
+def printer(attendees)
+  attendees.each do |
 end
