@@ -19,3 +19,6 @@ def assign_rooms(attendees)
   end
   return attendee
 end
+
+def printer
+end
